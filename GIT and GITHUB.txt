@@ -1,0 +1,24 @@
+GIT and GITHUB
+-------------------
+git config --list
+Git Basic Commands:
+--------------------
+1. Initializes the git
+   git init
+2 Add the files to the git
+   git add filename
+   (or)
+   git add .
+3. Commit the added files
+    git commit -m "Welcome file is pushed"
+4. Create a git repo
+5. Create a branch
+   git branch -M main
+6. Adding origin 
+   git remote add origin https://github.com/arunkumar-1410/GitCommands.git
+7. pushing
+    git push -u origin main
+
+git config --global user.name "githubusername"
+git config --global user.email "GitHubmailid"
+
