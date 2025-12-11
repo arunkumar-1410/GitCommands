@@ -1,6 +1,7 @@
 GIT and GITHUB
 -------------------
 git config --list
+
 Git Basic Commands:
 --------------------
 1. Initializes the git
@@ -21,4 +22,75 @@ Git Basic Commands:
 
 git config --global user.name "githubusername"
 git config --global user.email "GitHubmailid"
+
+========================================================
+Git Branching
+-------------
+1. To create a new branch, use the command
+  git branch branchname
+  Ex: git branch first
+2.To List all the branches:
+  git branch
+3. To change from main branch to first branch
+  git checkout branch_to_shift
+  git checkout first
+(Here main and first branches are there, by default, we are with main branch, to change from main to first)
+
+4. add, commit and push to the new branch
+  git add welcome2.txt
+  git commit -m "message"
+  git push -u origin first
+5. Check GitHub repository for created branches
+------------------------------------------
+Note:
+To Create a new branch, come to main branch using the command
+git checkout main
+
+To list all the branches at local and remote:
+---------------------------------------------
+git branch -a
+
+
+Merging the Branches
+=====================
+
+1. We have two branches main, first
+2. we have to merge first branch to main branch
+3. checkout to main branch
+	git checkout main
+4. merge the first branch with main branch and push the code
+	git merge first
+	git push origin main
+5. Now, the main branch contains all the files of first branch
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
